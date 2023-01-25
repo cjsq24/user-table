@@ -1,0 +1,52 @@
+.table-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.group {
+  display: flex;
+  gap: 10px;
+}
+
+.eye {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  width: 150px;
+  display: inline-block;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.data-group {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-close {
+  all: unset;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid lightgrey;
+}
